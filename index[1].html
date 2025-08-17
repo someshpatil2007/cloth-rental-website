@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RentMyDress — Luxury Dress Rentals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='48'%3E👗%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.svg" alt="RentMyDress Logo" class="logo" />
+        <span>RentMyDress</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html">Browse</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content container">
+        <h1>Rent Your Dream Outfit</h1>
+        <p>Designer sarees, gowns, and sherwanis — for one perfect day.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="browse.html">Browse Collection</a>
+          <a class="btn ghost" href="about.html">How it works</a>
+        </div>
+      </div>
+      <img class="hero-bg" alt="Luxury fashion background" src="https://images.unsplash.com/photo-1520975940206-b69e0784cf83?q=80&w=1600&auto=format&fit=crop" />
+    </section>
+
+    <section class="features container">
+      <div class="feature">
+        <div class="feature-icon">💎</div>
+        <h3>Premium Looks</h3>
+        <p>Handpicked designer styles for weddings, parties, and receptions.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🗓️</div>
+        <h3>Rent Per Day</h3>
+        <p>Transparent one-day pricing and refundable deposits.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🌿</div>
+        <h3>Eco-Friendly</h3>
+        <p>Reduce waste by renting instead of buying once.</p>
+      </div>
+    </section>
+
+    <section class="container section-heading">
+      <h2>Featured Outfits</h2>
+      <p class="muted">Curated looks trending this season</p>
+    </section>
+
+    <section class="product-grid container">
+      <article class="card" data-title="Designer Saree" data-category="women" data-size="M">
+        <div class="card-media">
+          <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=1200&auto=format&fit=crop" alt="Designer Saree">
+        </div>
+        <div class="card-body">
+          <h3>Designer Saree</h3>
+          <p class="price">₹1,800 / day <span class="deposit">Deposit: ₹3,000</span></p>
+          <a class="btn small" href="browse.html">Rent Now</a>
+        </div>
+      </article>
+
+      <article class="card" data-title="Wedding Gown" data-category="women" data-size="L">
+        <div class="card-media">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop" alt="Wedding Gown">
+        </div>
+        <div class="card-body">
+          <h3>Wedding Gown</h3>
+          <p class="price">₹2,400 / day <span class="deposit">Deposit: ₹4,000</span></p>
+          <a class="btn small" href="browse.html">Rent Now</a>
+        </div>
+      </article>
+
+      <article class="card" data-title="Sherwani" data-category="men" data-size="XL">
+        <div class="card-media">
+          <img src="https://images.unsplash.com/photo-1621784563330-e26f2a5b54e0?q=80&w=1200&auto=format&fit=crop" alt="Sherwani">
+        </div>
+        <div class="card-body">
+          <h3>Sherwani</h3>
+          <p class="price">₹2,100 / day <span class="deposit">Deposit: ₹3,500</span></p>
+          <a class="btn small" href="browse.html">Rent Now</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>RentMyDress</h4>
+        <p>Premium outfits for your special day — rent, wear, return. Luxury without the price tag.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="browse.html">Browse</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="X">X</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2025 RentMyDress. All rights reserved.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
